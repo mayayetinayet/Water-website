@@ -1,0 +1,80 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://via.placeholder.com/1200x800'); /* Replace with your image later */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Overlay to darken image slightly for readability */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5%;
+}
+
+/* Text content */
+.content {
+  color: #ffcc00; /* Warm yellow */
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 2.8em;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.content p {
+  color: #fff8dc;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #fff8dc;
+  color: #f9a825;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f9e79f;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.2em;
+  color: #ffcc00;
+}
